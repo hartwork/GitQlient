@@ -13,7 +13,7 @@ jobs:
       matrix:
         env:
           - name: MacOS x86_64
-            os: macos-11
+            os: macos-12
             qtplatform: mac
             qtversion: 6.6.*
             arch: darwin64-x86_64-cc
