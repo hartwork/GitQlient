@@ -1,12 +1,12 @@
 [submodule "src/QPinnableTabWidget"]
 	path = src/QPinnableTabWidget
-	url = ../QPinnableTabWidget.git
+	url = https://github.com/francescmm/QPinnableTabWidget.git
 [submodule "src/QLogger"]
 	path = src/QLogger
-	url = ../QLogger.git
+	url = https://github.com/francescmm/QLogger.git
 [submodule "src/AuxiliarCustomWidgets"]
 	path = src/AuxiliarCustomWidgets
-	url = ../AuxiliarCustomWidgets.git
+	url = https://github.com/francescmm/AuxiliarCustomWidgets.git
 [submodule "src/git"]
 	path = src/git
-	url = ../git.git
+	url = https://github.com/francescmm/git.git
