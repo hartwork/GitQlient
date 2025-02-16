@@ -58,6 +58,7 @@ jobs:
       - name: Compile
         run: |
           qmake -v
+          qmake -v | grep -qF 'Qt version 5'  # i.e. assert we are using Qt 5.x.x
           mkdir build
           qmake GitQlient.pro PREFIX=$(pwd)/AppImage/gitqlient/usr VERSION=`git describe --always`
           make -j 4
