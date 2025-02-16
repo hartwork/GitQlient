@@ -3,8 +3,6 @@ run-name: Latest master run
 
 on:
   push:
-    branches:
-      - master
 
 permissions:
   contents: write
